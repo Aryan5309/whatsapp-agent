@@ -1,0 +1,482 @@
+[
+  {
+    "id": "P01",
+    "name": "Premium Skirt",
+    "category": "Women",
+    "price": 4800,
+    "image_url": "https://fakeimg.pl/400x400/282828/eae0d0/?text=Skirt",
+    "description": "High-quality women fashion. Make a bold statement with our Premium Skirt."
+  },
+  {
+    "id": "P02",
+    "name": "Premium Running Shoes",
+    "category": "Shoes",
+    "price": 1200,
+    "image_url": "https://fakeimg.pl/400x400/282828/eae0d0/?text=Running%20Shoes",
+    "description": "High-quality shoes fashion. Make a bold statement with our Premium Running Shoes."
+  },
+  {
+    "id": "P03",
+    "name": "Sporty Handbag",
+    "category": "Accessories",
+    "price": 800,
+    "image_url": "https://fakeimg.pl/400x400/282828/eae0d0/?text=Handbag",
+    "description": "High-quality accessories fashion. Make a bold statement with our Sporty Handbag."
+  },
+  {
+    "id": "P04",
+    "name": "Premium Hoodie",
+    "category": "Men",
+    "price": 1100,
+    "image_url": "https://fakeimg.pl/400x400/282828/eae0d0/?text=Hoodie",
+    "description": "High-quality men fashion. Make a bold statement with our Premium Hoodie."
+  },
+  {
+    "id": "P05",
+    "name": "Vintage Sunglasses",
+    "category": "Accessories",
+    "price": 1200,
+    "image_url": "https://fakeimg.pl/400x400/282828/eae0d0/?text=Sunglasses",
+    "description": "High-quality accessories fashion. Make a bold statement with our Vintage Sunglasses."
+  },
+  {
+    "id": "P06",
+    "name": "Sporty Handbag",
+    "category": "Accessories",
+    "price": 4500,
+    "image_url": "https://fakeimg.pl/400x400/282828/eae0d0/?text=Handbag",
+    "description": "High-quality accessories fashion. Make a bold statement with our Sporty Handbag."
+  },
+  {
+    "id": "P07",
+    "name": "Vintage Sneakers",
+    "category": "Shoes",
+    "price": 3200,
+    "image_url": "https://fakeimg.pl/400x400/282828/eae0d0/?text=Sneakers",
+    "description": "High-quality shoes fashion. Make a bold statement with our Vintage Sneakers."
+  },
+  {
+    "id": "P08",
+    "name": "Premium Sandals",
+    "category": "Shoes",
+    "price": 2300,
+    "image_url": "https://fakeimg.pl/400x400/282828/eae0d0/?text=Sandals",
+    "description": "High-quality shoes fashion. Make a bold statement with our Premium Sandals."
+  },
+  {
+    "id": "P09",
+    "name": "Modern Gown",
+    "category": "Women",
+    "price": 2200,
+    "image_url": "https://fakeimg.pl/400x400/282828/eae0d0/?text=Gown",
+    "description": "High-quality women fashion. Make a bold statement with our Modern Gown."
+  },
+  {
+    "id": "P10",
+    "name": "Luxury Skirt",
+    "category": "Women",
+    "price": 4600,
+    "image_url": "https://fakeimg.pl/400x400/282828/eae0d0/?text=Skirt",
+    "description": "High-quality women fashion. Make a bold statement with our Luxury Skirt."
+  },
+  {
+    "id": "P11",
+    "name": "Summer Sandals",
+    "category": "Shoes",
+    "price": 3200,
+    "image_url": "https://fakeimg.pl/400x400/282828/eae0d0/?text=Sandals",
+    "description": "High-quality shoes fashion. Make a bold statement with our Summer Sandals."
+  },
+  {
+    "id": "P12",
+    "name": "Sporty Suit",
+    "category": "Men",
+    "price": 3800,
+    "image_url": "https://fakeimg.pl/400x400/282828/eae0d0/?text=Suit",
+    "description": "High-quality men fashion. Make a bold statement with our Sporty Suit."
+  },
+  {
+    "id": "P13",
+    "name": "Modern Jacket",
+    "category": "Men",
+    "price": 4600,
+    "image_url": "https://fakeimg.pl/400x400/282828/eae0d0/?text=Jacket",
+    "description": "High-quality men fashion. Make a bold statement with our Modern Jacket."
+  },
+  {
+    "id": "P14",
+    "name": "Premium Watch",
+    "category": "Accessories",
+    "price": 3900,
+    "image_url": "https://fakeimg.pl/400x400/282828/eae0d0/?text=Watch",
+    "description": "High-quality accessories fashion. Make a bold statement with our Premium Watch."
+  },
+  {
+    "id": "P15",
+    "name": "Luxury Loafers",
+    "category": "Shoes",
+    "price": 4900,
+    "image_url": "https://fakeimg.pl/400x400/282828/eae0d0/?text=Loafers",
+    "description": "High-quality shoes fashion. Make a bold statement with our Luxury Loafers."
+  },
+  {
+    "id": "P16",
+    "name": "Modern Wallet",
+    "category": "Accessories",
+    "price": 4400,
+    "image_url": "https://fakeimg.pl/400x400/282828/eae0d0/?text=Wallet",
+    "description": "High-quality accessories fashion. Make a bold statement with our Modern Wallet."
+  },
+  {
+    "id": "P17",
+    "name": "Premium Jeans",
+    "category": "Men",
+    "price": 2000,
+    "image_url": "https://fakeimg.pl/400x400/282828/eae0d0/?text=Jeans",
+    "description": "High-quality men fashion. Make a bold statement with our Premium Jeans."
+  },
+  {
+    "id": "P18",
+    "name": "Summer Handbag",
+    "category": "Accessories",
+    "price": 2000,
+    "image_url": "https://fakeimg.pl/400x400/282828/eae0d0/?text=Handbag",
+    "description": "High-quality accessories fashion. Make a bold statement with our Summer Handbag."
+  },
+  {
+    "id": "P19",
+    "name": "Elegant Loafers",
+    "category": "Shoes",
+    "price": 1700,
+    "image_url": "https://fakeimg.pl/400x400/282828/eae0d0/?text=Loafers",
+    "description": "High-quality shoes fashion. Make a bold statement with our Elegant Loafers."
+  },
+  {
+    "id": "P20",
+    "name": "Premium Top",
+    "category": "Women",
+    "price": 3300,
+    "image_url": "https://fakeimg.pl/400x400/282828/eae0d0/?text=Top",
+    "description": "High-quality women fashion. Make a bold statement with our Premium Top."
+  },
+  {
+    "id": "P21",
+    "name": "Sporty Suit",
+    "category": "Men",
+    "price": 600,
+    "image_url": "https://fakeimg.pl/400x400/282828/eae0d0/?text=Suit",
+    "description": "High-quality men fashion. Make a bold statement with our Sporty Suit."
+  },
+  {
+    "id": "P22",
+    "name": "Modern Jacket",
+    "category": "Men",
+    "price": 3600,
+    "image_url": "https://fakeimg.pl/400x400/282828/eae0d0/?text=Jacket",
+    "description": "High-quality men fashion. Make a bold statement with our Modern Jacket."
+  },
+  {
+    "id": "P23",
+    "name": "Summer Shirt",
+    "category": "Men",
+    "price": 800,
+    "image_url": "https://fakeimg.pl/400x400/282828/eae0d0/?text=Shirt",
+    "description": "High-quality men fashion. Make a bold statement with our Summer Shirt."
+  },
+  {
+    "id": "P24",
+    "name": "Casual Hoodie",
+    "category": "Men",
+    "price": 3100,
+    "image_url": "https://fakeimg.pl/400x400/282828/eae0d0/?text=Hoodie",
+    "description": "High-quality men fashion. Make a bold statement with our Casual Hoodie."
+  },
+  {
+    "id": "P25",
+    "name": "Classic T-Shirt",
+    "category": "Men",
+    "price": 2500,
+    "image_url": "https://fakeimg.pl/400x400/282828/eae0d0/?text=T-Shirt",
+    "description": "High-quality men fashion. Make a bold statement with our Classic T-Shirt."
+  },
+  {
+    "id": "P26",
+    "name": "Vintage Loafers",
+    "category": "Shoes",
+    "price": 3100,
+    "image_url": "https://fakeimg.pl/400x400/282828/eae0d0/?text=Loafers",
+    "description": "High-quality shoes fashion. Make a bold statement with our Vintage Loafers."
+  },
+  {
+    "id": "P27",
+    "name": "Luxury Backpack",
+    "category": "Accessories",
+    "price": 3900,
+    "image_url": "https://fakeimg.pl/400x400/282828/eae0d0/?text=Backpack",
+    "description": "High-quality accessories fashion. Make a bold statement with our Luxury Backpack."
+  },
+  {
+    "id": "P28",
+    "name": "Classic Hoodie",
+    "category": "Men",
+    "price": 1100,
+    "image_url": "https://fakeimg.pl/400x400/282828/eae0d0/?text=Hoodie",
+    "description": "High-quality men fashion. Make a bold statement with our Classic Hoodie."
+  },
+  {
+    "id": "P29",
+    "name": "Premium Blouse",
+    "category": "Women",
+    "price": 3400,
+    "image_url": "https://fakeimg.pl/400x400/282828/eae0d0/?text=Blouse",
+    "description": "High-quality women fashion. Make a bold statement with our Premium Blouse."
+  },
+  {
+    "id": "P30",
+    "name": "Summer Wallet",
+    "category": "Accessories",
+    "price": 1500,
+    "image_url": "https://fakeimg.pl/400x400/282828/eae0d0/?text=Wallet",
+    "description": "High-quality accessories fashion. Make a bold statement with our Summer Wallet."
+  },
+  {
+    "id": "P31",
+    "name": "Vintage Sweater",
+    "category": "Women",
+    "price": 600,
+    "image_url": "https://fakeimg.pl/400x400/282828/eae0d0/?text=Sweater",
+    "description": "High-quality women fashion. Make a bold statement with our Vintage Sweater."
+  },
+  {
+    "id": "P32",
+    "name": "Casual Shirt",
+    "category": "Men",
+    "price": 3400,
+    "image_url": "https://fakeimg.pl/400x400/282828/eae0d0/?text=Shirt",
+    "description": "High-quality men fashion. Make a bold statement with our Casual Shirt."
+  },
+  {
+    "id": "P33",
+    "name": "Sporty Handbag",
+    "category": "Accessories",
+    "price": 2900,
+    "image_url": "https://fakeimg.pl/400x400/282828/eae0d0/?text=Handbag",
+    "description": "High-quality accessories fashion. Make a bold statement with our Sporty Handbag."
+  },
+  {
+    "id": "P34",
+    "name": "Casual Trousers",
+    "category": "Men",
+    "price": 1100,
+    "image_url": "https://fakeimg.pl/400x400/282828/eae0d0/?text=Trousers",
+    "description": "High-quality men fashion. Make a bold statement with our Casual Trousers."
+  },
+  {
+    "id": "P35",
+    "name": "Classic Blouse",
+    "category": "Women",
+    "price": 3400,
+    "image_url": "https://fakeimg.pl/400x400/282828/eae0d0/?text=Blouse",
+    "description": "High-quality women fashion. Make a bold statement with our Classic Blouse."
+  },
+  {
+    "id": "P36",
+    "name": "Casual Watch",
+    "category": "Accessories",
+    "price": 4500,
+    "image_url": "https://fakeimg.pl/400x400/282828/eae0d0/?text=Watch",
+    "description": "High-quality accessories fashion. Make a bold statement with our Casual Watch."
+  },
+  {
+    "id": "P37",
+    "name": "Classic Gown",
+    "category": "Women",
+    "price": 3200,
+    "image_url": "https://fakeimg.pl/400x400/282828/eae0d0/?text=Gown",
+    "description": "High-quality women fashion. Make a bold statement with our Classic Gown."
+  },
+  {
+    "id": "P38",
+    "name": "Summer Loafers",
+    "category": "Shoes",
+    "price": 4100,
+    "image_url": "https://fakeimg.pl/400x400/282828/eae0d0/?text=Loafers",
+    "description": "High-quality shoes fashion. Make a bold statement with our Summer Loafers."
+  },
+  {
+    "id": "P39",
+    "name": "Vintage Sandals",
+    "category": "Shoes",
+    "price": 4300,
+    "image_url": "https://fakeimg.pl/400x400/282828/eae0d0/?text=Sandals",
+    "description": "High-quality shoes fashion. Make a bold statement with our Vintage Sandals."
+  },
+  {
+    "id": "P40",
+    "name": "Casual T-Shirt",
+    "category": "Men",
+    "price": 2100,
+    "image_url": "https://fakeimg.pl/400x400/282828/eae0d0/?text=T-Shirt",
+    "description": "High-quality men fashion. Make a bold statement with our Casual T-Shirt."
+  },
+  {
+    "id": "P41",
+    "name": "Summer Top",
+    "category": "Women",
+    "price": 1700,
+    "image_url": "https://fakeimg.pl/400x400/282828/eae0d0/?text=Top",
+    "description": "High-quality women fashion. Make a bold statement with our Summer Top."
+  },
+  {
+    "id": "P42",
+    "name": "Classic Skirt",
+    "category": "Women",
+    "price": 4800,
+    "image_url": "https://fakeimg.pl/400x400/282828/eae0d0/?text=Skirt",
+    "description": "High-quality women fashion. Make a bold statement with our Classic Skirt."
+  },
+  {
+    "id": "P43",
+    "name": "Elegant Belt",
+    "category": "Accessories",
+    "price": 2200,
+    "image_url": "https://fakeimg.pl/400x400/282828/eae0d0/?text=Belt",
+    "description": "High-quality accessories fashion. Make a bold statement with our Elegant Belt."
+  },
+  {
+    "id": "P44",
+    "name": "Sporty Trousers",
+    "category": "Men",
+    "price": 2800,
+    "image_url": "https://fakeimg.pl/400x400/282828/eae0d0/?text=Trousers",
+    "description": "High-quality men fashion. Make a bold statement with our Sporty Trousers."
+  },
+  {
+    "id": "P45",
+    "name": "Luxury Belt",
+    "category": "Accessories",
+    "price": 1100,
+    "image_url": "https://fakeimg.pl/400x400/282828/eae0d0/?text=Belt",
+    "description": "High-quality accessories fashion. Make a bold statement with our Luxury Belt."
+  },
+  {
+    "id": "P46",
+    "name": "Summer Sweater",
+    "category": "Women",
+    "price": 2800,
+    "image_url": "https://fakeimg.pl/400x400/282828/eae0d0/?text=Sweater",
+    "description": "High-quality women fashion. Make a bold statement with our Summer Sweater."
+  },
+  {
+    "id": "P47",
+    "name": "Vintage Sweater",
+    "category": "Women",
+    "price": 1500,
+    "image_url": "https://fakeimg.pl/400x400/282828/eae0d0/?text=Sweater",
+    "description": "High-quality women fashion. Make a bold statement with our Vintage Sweater."
+  },
+  {
+    "id": "P48",
+    "name": "Elegant Hoodie",
+    "category": "Men",
+    "price": 1600,
+    "image_url": "https://fakeimg.pl/400x400/282828/eae0d0/?text=Hoodie",
+    "description": "High-quality men fashion. Make a bold statement with our Elegant Hoodie."
+  },
+  {
+    "id": "P49",
+    "name": "Sporty Suit",
+    "category": "Men",
+    "price": 3200,
+    "image_url": "https://fakeimg.pl/400x400/282828/eae0d0/?text=Suit",
+    "description": "High-quality men fashion. Make a bold statement with our Sporty Suit."
+  },
+  {
+    "id": "P50",
+    "name": "Luxury Sunglasses",
+    "category": "Accessories",
+    "price": 2000,
+    "image_url": "https://fakeimg.pl/400x400/282828/eae0d0/?text=Sunglasses",
+    "description": "High-quality accessories fashion. Make a bold statement with our Luxury Sunglasses."
+  },
+  {
+    "id": "P51",
+    "name": "Modern Running Shoes",
+    "category": "Shoes",
+    "price": 2300,
+    "image_url": "https://fakeimg.pl/400x400/282828/eae0d0/?text=Running%20Shoes",
+    "description": "High-quality shoes fashion. Make a bold statement with our Modern Running Shoes."
+  },
+  {
+    "id": "P52",
+    "name": "Premium Dress",
+    "category": "Women",
+    "price": 3800,
+    "image_url": "https://fakeimg.pl/400x400/282828/eae0d0/?text=Dress",
+    "description": "High-quality women fashion. Make a bold statement with our Premium Dress."
+  },
+  {
+    "id": "P53",
+    "name": "Casual Heels",
+    "category": "Shoes",
+    "price": 4200,
+    "image_url": "https://fakeimg.pl/400x400/282828/eae0d0/?text=Heels",
+    "description": "High-quality shoes fashion. Make a bold statement with our Casual Heels."
+  },
+  {
+    "id": "P54",
+    "name": "Casual Handbag",
+    "category": "Accessories",
+    "price": 2200,
+    "image_url": "https://fakeimg.pl/400x400/282828/eae0d0/?text=Handbag",
+    "description": "High-quality accessories fashion. Make a bold statement with our Casual Handbag."
+  },
+  {
+    "id": "P55",
+    "name": "Classic Sneakers",
+    "category": "Shoes",
+    "price": 2200,
+    "image_url": "https://fakeimg.pl/400x400/282828/eae0d0/?text=Sneakers",
+    "description": "High-quality shoes fashion. Make a bold statement with our Classic Sneakers."
+  },
+  {
+    "id": "P56",
+    "name": "Luxury Gown",
+    "category": "Women",
+    "price": 2500,
+    "image_url": "https://fakeimg.pl/400x400/282828/eae0d0/?text=Gown",
+    "description": "High-quality women fashion. Make a bold statement with our Luxury Gown."
+  },
+  {
+    "id": "P57",
+    "name": "Premium Trousers",
+    "category": "Men",
+    "price": 800,
+    "image_url": "https://fakeimg.pl/400x400/282828/eae0d0/?text=Trousers",
+    "description": "High-quality men fashion. Make a bold statement with our Premium Trousers."
+  },
+  {
+    "id": "P58",
+    "name": "Vintage Handbag",
+    "category": "Accessories",
+    "price": 1600,
+    "image_url": "https://fakeimg.pl/400x400/282828/eae0d0/?text=Handbag",
+    "description": "High-quality accessories fashion. Make a bold statement with our Vintage Handbag."
+  },
+  {
+    "id": "P59",
+    "name": "Vintage Trousers",
+    "category": "Men",
+    "price": 800,
+    "image_url": "https://fakeimg.pl/400x400/282828/eae0d0/?text=Trousers",
+    "description": "High-quality men fashion. Make a bold statement with our Vintage Trousers."
+  },
+  {
+    "id": "P60",
+    "name": "Summer T-Shirt",
+    "category": "Men",
+    "price": 800,
+    "image_url": "https://fakeimg.pl/400x400/282828/eae0d0/?text=T-Shirt",
+    "description": "High-quality men fashion. Make a bold statement with our Summer T-Shirt."
+  }
+]
