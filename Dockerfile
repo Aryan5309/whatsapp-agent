@@ -19,7 +19,7 @@ WORKDIR /app
 
 # Install dependencies
 COPY package*.json ./
-RUN npm install
+RUN npm install && npm install pm2 -g
 
 # Copy all files
 COPY . .
@@ -27,5 +27,5 @@ COPY . .
 # Expose port (7860 is HuggingFace default)
 EXPOSE 7860
 
-# Run the Business bot
-CMD ["node", "index.js"]
+# Run both bots and the master server using PM2
+CMD ["pm2-runtime", "start", "ecosystem.config.js"]

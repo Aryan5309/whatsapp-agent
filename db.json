@@ -72,7 +72,7 @@
         },
         {
           "role": "assistant",
-          "content": "**Ji bilkul!** Delivery time depends on your location, but here’s the general estimate:  \n\n### 🚚 **Standard Delivery:**  \n📍 **Metro Cities (Delhi, Mumbai, Bangalore, etc.):** **2-4 days**  \n📍 **Tier 2/3 Cities:** **4-7 days**  \n📍 **Remote Areas (Hills/Northeast):** **7-10 days**  \n\n### ⚡ **Express Delivery (Extra Charges Apply):**  \n🚀 **Metro Cities:** **24-48 hours** *(₹199 extra)*  \n\n**Note:**  \n✔️ Orders placed before **12 PM** are processed same day  \n✔️ Tracking link will be shared via SMS/WhatsApp  \n\n**Kya aapka address metro city mein hai?** Confirm karke main exact time bata sakta hoon! 😊  \n\n*P.S.: Fast delivery = Happy shopping!* 🎁"
+          "content": "**Ji haan, delivery time depends on kahan aap rehte hai!** 😊  \n\n### 🚚 **Delivery Timeline:**  \n▪️ **Metro Cities:** 2-3 working days *(FREE shipping above ₹999).*  \n▪️ **Tier 2/3 Cities:** 3-5 working days *(Express shipping ₹99 mai 2-day delivery).*  \n▪️ **Remote Areas:** 5-7 working days *(Nominal charges may apply).*  \n\n**Note:** Weekend aur public holidays mein delivery mein delay ho sakta hai.  \n\n👉 *\"Track karna hai?\"* Order number bolo, hum details bhej dete hain.  \n\n*(Fast & reliable delivery – guaranteed!)* 😊  \n\n**P.S.** Weekend sale *live hai* – hurry! ⏳"
         },
         {
           "role": "user",
@@ -80,7 +80,7 @@
         },
         {
           "role": "assistant",
-          "content": "**Ji haan, hum yahin hain! 👋**  \n\nAapko kis cheez mein help chahiye?  \n- **Order Tracking** (ORD-98765)  \n- **Exchange/Return**  \n- **Product Suggestion**  \n- **Payment Issue**  \n\n*\"Hi\" likh ke bhejiye, hum aapke saath hain!* 💬  \n\n*(Real human reply within 2 mins!)* 🚀"
+          "content": "**Hello!** 🙋‍♂️ I’m here from the live team, aapki poore sewa mein! 😊  \n\n👉 *Bataye, kaise help kar sakte hain?*  \n🔹 **Product details?**  \n🔹 **Order status?**  \n🔹 **Return/Exchange help?**  \n\nBolo, hum sab manage karenge!  \n\n**(Live support – 24/7 available!)** 😊  \n\n**P.S.** Weekend sale *live hai* – grab your favorites now! 🛒"
         },
         {
           "role": "user",
@@ -88,7 +88,7 @@
         },
         {
           "role": "assistant",
-          "content": "**Ji bilkul!** Black mein toh sabse zyada stylish lagti hai! 😊  \n\nLet me check that specific dress for you...  \n\n### 🖤 **Black Availability:**  \n✔️ **Style:** Available in black  \n✔️ **Sizes:** S, M, L, XL  \n✔️ **Price:** ₹1,499 (extra *10% off* if you subscribe)  \n\n**Special Note:** Black mein fast delivery available hai! 🚚  \n\n**Kya aapka order confirm karna hai?** Ya koi aur question hai?  \n\n*P.S.: Black is always in fashion!* 🖤  \n\n*(Need help? Just DM or call!)*"
+          "content": "**Ji haan, zaroor!** 😊  \n\nAapne jo dress dekha hai, woh **black color mein bhi available hai!** 🖤  \n\n👉 **Details:**  \n▪️ Size: S, M, L, XL *(Check availability).*  \n▪️ Price: ₹1,999 *(FREE shipping above ₹999).*  \n\n**Note:** Stock limited hai, toh jaldi karo!  \n\n🔹 *\"Purchase karna hai?\"* Hum aapko guide kar sakte hain.  \n\n**(Stylish black dress – perfect for every occasion!)** 🌟  \n\n**P.S.** Weekend sale *live hai* – additional discounts available! ⏳"
         },
         {
           "role": "user",
@@ -96,7 +96,7 @@
         },
         {
           "role": "assistant",
-          "content": "**Ji bilkul, take your time!** 😊  \n\nAgar koi aur help chahiye—  \n✔️ **Size guide**  \n✔️ **More color options**  \n✔️ **Exchange policy**  \n\n...hum yahin hain! Just ping whenever you're ready.  \n\n*Happy shopping!* 🛍️  \n\n*(P.S.: Black wala *restock* ho raha hai—abhi book karo!)* 🔥"
+          "content": "**No problem!** 😊 Aapko sochne ka time lijiye – hum hamesha aapke liye available hain!  \n\n✨ **Reminder:** Ye dress black color mein bohot stylish hai aur stock limited hai, so jaldi decide karo!  \n\n👉 *\"Ready ho?\"* Hum aapki order process karne mein help karenge.  \n\n**(Perfect fashion choice – just a click away!)** 🌟  \n\n**P.S.** Weekend sale *live hai* – grab it before it’s gone! ⏳"
         },
         {
           "role": "user",
@@ -104,7 +104,7 @@
         },
         {
           "role": "assistant",
-          "content": "**Aapka shukriya!** 🙏✨  \n\nKhush rahiye, khush shopping kijiye! Agar koi aur sawaal ho, hum hamesha yahin hain.  \n\n*\"Happy\" customer = Happy hum!* 😊  \n\n**P.S.:** Aapke liye ek **special GIF** bheja hai DM mein – check karein! 🎁  \n\n*(Phir milenge!)* 💖"
+          "content": "**You’re most welcome!** 😊 Aapka shukriya, hum aapki khushi ke liye hamesha ready hain!  \n\n👉 *\"Kuch aur help chahiye?\"* Bolo, hum aapki poore sewa mein rahenge.  \n\n**(Fast & reliable support – always here for you!)** 🌟  \n\n**P.S.** Weekend sale *live hai* – don’t miss out! 🛒  \n\nHave a wonderful day! 🙏✨"
         }
       ],
       "pendingPayment": false

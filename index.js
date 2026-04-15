@@ -11,22 +11,6 @@ const { generateAIResponse } = require('./ai');
 const db = require('./database');
 require('dotenv').config();
 const path = require('path');
-const express = require('express');
-
-// Set up Express for Cloud Deployment (HuggingFace)
-const app = express();
-const PORT = process.env.PORT || 7860;
-
-app.get('/', (req, res) => {
-    const qrPath = path.join(__dirname, 'qr.html');
-    if (fs.existsSync(qrPath)) {
-        res.sendFile(qrPath);
-    } else {
-        res.send('<h2>WhatsApp Bot is running! Waiting for QR Code or already logged in.</h2>');
-    }
-});
-
-app.listen(PORT, () => console.log(`🌍 Cloud Web Server running on port ${PORT}`));
 
 // Load the catalog
 let productsCatalog = [];
@@ -62,38 +46,47 @@ async function replyWithTypingDelay(msg, chat, text, baseDelayMs = 1500) {
     const randomDelay = Math.floor(Math.random() * 2000) + 2000;
     await delay(baseDelayMs + randomDelay);
     
-    await msg.reply(text);
+    await chat.sendMessage(text);
 }
 
-// Event: Show QR code
+// QR Code event
 client.on('qr', (qr) => {
-    console.log('--- QR CODE RECEIVED ---');
+    console.log('--- [💼 BUSINESS BOT] QR ---');
     qrcode.generate(qr, { small: true });
-
-    const htmlContent = `
-        <!DOCTYPE html>
-        <html>
-        <head><title>WhatsApp QR Code</title></head>
-        <body style="display:flex; justify-content:center; align-items:center; height:100vh; background-color:#f0f0f0; font-family:sans-serif;">
-            <div style="background:white; padding:40px; border-radius:10px; box-shadow:0 4px 8px rgba(0,0,0,0.1); text-align:center;">
-                <h2>Scan with WhatsApp</h2>
-                <img src="https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=${encodeURIComponent(qr)}" alt="QR Code" style="margin-top:20px;"/>
-                <p style="margin-top:20px; color:#555;">Open WhatsApp > Settings > Linked Devices</p>
-            </div>
-        </body>
-        </html>
-    `;
-    fs.writeFileSync('qr.html', htmlContent);
-    console.log('✅ QR Code also saved to "qr.html" in your folder.');
+    fs.writeFileSync('business_qr.txt', qr);
+    console.log('✅ [💼 BUSINESS BOT] QR saved. Open dashboard to scan.');
 });
 
-// Event: Bot is ready
+// Ready event
 client.on('ready', () => {
-    console.log('✅ Bot is ready! Logged in as:', client.info.pushname);
+    console.log('✅ [💼 BUSINESS BOT] ready! Logged in as:', client.info.pushname);
+    // Clear QR file since we're logged in
+    if (fs.existsSync('business_qr.txt')) fs.unlinkSync('business_qr.txt');
+
+    // Upload WhatsApp Status exactly every 30 minutes (48 per day)
+    setInterval(async () => {
+        try {
+            const statusTexts = [
+                "👗 Check out our latest Fashion Collection!",
+                "🔥 Huge discounts available on Men's wear today.",
+                "👟 Top branded Shoes in stock! Message 'Hi' to order.",
+                "⌚ Premium quality accessories available now.",
+                "🚚 Fast & safe delivery on all prepaid orders!",
+                "🛒 Reply 'Hi' to chat with our assistant and browse."
+            ];
+            const t = statusTexts[Math.floor(Math.random() * statusTexts.length)];
+            await client.sendMessage('status@broadcast', t);
+            console.log('🌟 [💼 BUSINESS BOT] Uploaded WhatsApp Status:', t);
+        } catch (e) {
+            console.error('Error uploading status:', e.message);
+        }
+    }, 30 * 60 * 1000);
 });
+
 
 // Event: Handling incoming messages
 client.on('message', async (msg) => {
+    if (msg.isStatus || msg.from === 'status@broadcast') return;
     if (!msg.body) return;
 
     const messageBody = msg.body.trim();
@@ -101,10 +94,14 @@ client.on('message', async (msg) => {
     const sender = msg.from;
     const chat = await msg.getChat();
 
-    console.log(`[Message] From: ${sender} | Content: ${messageBody}`);
+    console.log(`\n--- 📥 NEW MESSAGE [💼 BUSINESS BOT] ---`);
+    console.log(`From: ${sender}`);
+    console.log(`Body: ${messageBody}`);
+    console.log(`------------------------------------`);
 
     try {
         const user = await db.getUserSession(sender);
+        console.log(`[State]: ${user.state} | [History]: ${user.history ? user.history.length : 0} msgs`);
 
         // --- Opt-Out Logic ---
         if (messageLower === 'stop') {
@@ -207,23 +204,30 @@ client.on('message', async (msg) => {
         }
 
         // --- Send to DeepSeek AI ---
-        console.log('Generating AI reply with memory context...');
+        console.log('🤖 [💼 BUSINESS BOT] Sending to DeepSeek AI for response...');
         await db.saveMessage(sender, "user", messageBody);
         const updatedUser = await db.getUserSession(sender);
         chat.sendStateTyping(); 
         
-        const aiReply = await generateAIResponse(updatedUser.history);
+        let aiReply = await generateAIResponse(updatedUser.history);
         
         if (aiReply) {
+            console.log('✅ [💼 BUSINESS BOT] AI Responded Successfully');
+            // Enforce response length to prevent "bahut lamba lamba"
+            aiReply = aiReply.length > 200 ? aiReply.substring(0, 200) + '...' : aiReply;
             await db.saveMessage(sender, "assistant", aiReply);
             await replyWithTypingDelay(msg, chat, aiReply, 500); 
         } else {
+            console.log('⚠️ [💼 BUSINESS BOT] AI returned empty or null. Sending fallback.');
             await replyWithTypingDelay(msg, chat, responses.fallback());
         }
 
     } catch (error) {
-        console.error('Error handling message:', error);
-        msg.reply(responses.fallback());
+        console.error('❌ [💼 BUSINESS BOT] CRITICAL ERROR:', error);
+        if (msg && msg.getChat) {
+             const chat = await msg.getChat().catch(()=>null);
+             if (chat) chat.sendMessage(responses.fallback());
+        }
     }
 });
 
